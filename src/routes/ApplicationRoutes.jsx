@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Inicio from '../pages/Inicio/Inicio'
-import Indicacoes from '../pages/Projetos/projetos'
 import Depoimentos from '../pages/Depoimentos/depoimentos'
 
 import Menu from '../Componentes/Menu/Menu'

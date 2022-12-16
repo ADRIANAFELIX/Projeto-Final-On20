@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Footer from '../../Componentes/Footer/Footer'
 
+
 import './depoimentos.css'
 
 function Depoimentos() {
@@ -30,10 +31,9 @@ function Depoimentos() {
   }
 
   function handleRemoveItem(id) {
-    const itemsFiltered = list.filter(item => item.id !== id)
+    const itemsFiltered = list.filter(item => item.id == id)
     setList(itemsFiltered)
   }
-
   useEffect(() => {
     localStorage.setItem('list', JSON.stringify(list))
   }, [list])
@@ -57,7 +57,7 @@ function Depoimentos() {
               type="submit" 
               onClick={handleCreateNewItem}
               >
-                <FiPlus size={16} color="#fff" />
+               <FiPlus size={16} color="red" />
             </button>
           </div>
         </div>
@@ -85,6 +85,13 @@ function Depoimentos() {
                   <div>
                     <p>{item.title}</p>
                   </div>
+                  <button 
+                    className="remove-task" 
+                    type="button"
+                    onClick={() => handleRemoveItem(item.id)}
+                  >
+                    
+                  </button>
                 </li>
               )
             })

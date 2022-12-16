@@ -69,7 +69,7 @@ function Projetos() {
                 </div>
             </section>
             <div className='div-envio'>
-                <h1>Conheça também a {"{reprograma}"}  que tem transformado a vida de milhares de mulheres cis e trans e foca em ensinar programação para aquelas que não possuem recursos ou que querem aprender.</h1>
+                <h1>Conheça também a {"{reprograma}"} que tem transformado a vida de milhares de mulheres cis e trans e foca em ensinar programação para aquelas que não possuem recursos ou que querem aprender.</h1>
                 <a className='envio' href="https://reprograma.com.br/" target="_blanck"><b>Saiba mais</b></a>
             </div>
             <footer>
