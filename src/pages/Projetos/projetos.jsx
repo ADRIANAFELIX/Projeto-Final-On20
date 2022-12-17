@@ -62,7 +62,7 @@ function Projetos() {
                             profissional para inserção no mercado de trabalho.
                             </p>
                         </div>
-                        <div className="card-rodape">
+                        <div className="card-rodape3">
                             <a href="https://www.tjpb.jus.br/noticia/projeto-cuidar-de-mim-do-tjpb-sera-retomado-na-grande-joao-pessoa-a-partir-de-marco/"target="_blanck">Clique e saiba mais</a>
                         </div>                    
                     </div>

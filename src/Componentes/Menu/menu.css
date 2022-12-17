@@ -51,3 +51,23 @@ textarea {
   text-decoration: none;
   color: #f7f7f9;
 }
+
+@media screen and (max-width: 480px) {
+  .container-menu {
+    background-color: #835385;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+  }
+
+  .item {
+    padding: 20px;
+  }
+
+  .item .link {
+    font-size: 1.2em;
+    padding: 0px;
+  }
+}

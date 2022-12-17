@@ -10,7 +10,7 @@ body {
   display: flex;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
   align-itens: center;
@@ -115,17 +115,55 @@ ul, li{
 }
 
 @media screen and (max-width: 480px) {
+  .header {
+    display: flex;
+    align-items: center;
+  }
+
   .header h1 {
     font-size: 20px;
-    }
+  }
 
   .img2 {
-      width: 332px;
-      height: 255px;
+      width: 300px;
+      height: 150px;
+      padding: 1em;
   }
+
   .textos {
     padding: 1rem;
+    padding-top: 0px;
     margin: 0 auto;
   }
 
+  .textos3 p {
+    padding: 1em;
+    margin: 0px;
+  }
+
+  .textos2 h2 {
+    font-size: 28px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+
+  .textos p {
+    padding: 0px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 50px;
+    padding: 0 25px;
+  }
+
+  .div-envio a {
+    margin-top: 10px;
+  }
+
+  .div-envio h1 {
+    margin: 0px;
+  }
 }

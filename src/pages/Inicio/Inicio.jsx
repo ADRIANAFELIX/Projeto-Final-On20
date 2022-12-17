@@ -1,8 +1,5 @@
 import Header from '../../Componentes/Header/Header'
-import Textos from '../../Componentes/Textos/Textos'
-import { FiLinkedin, FiInstagram, FiGithub, FiFacebook, FiTwitter } from "react-icons/fi";
-
-import Footer from '../../Componentes/Footer/Footer'
+import { FiLinkedin, FiInstagram, FiGithub, } from "react-icons/fi";
 import corpo1 from '../../assets/foto1.jpeg'
 
 import './inicio.css'
@@ -24,16 +21,16 @@ function Inicio() {
                         Vimos esse numero crescer em tempos de pandemia e isolamento social, onde as mulheres ficam mais tempo em casa, na companhia de parceiros, tutores e familiares, o número de casos e denúncias sobre violências aumentou significativamente.
                         </p>
                         <p>
-                        O termo “Violência contra a mulher” resume diversos tipos de violência que acontecem sistematicamente no Brasil e no mundo por questões de gênero. Ou seja, mulheres agredidas porque são mulheres. Essas agressões não se limitam apenas ao ato físico, mas a atos lesivos que resultem em danos psicológicos, emocionais, patrimoniais, financeiros, entre tantos outros.
+                        Para conseguir identificar os diversos tipos de agressões que acometem as mulheres, é importante conhecer o amparo legal que já existe. A Lei Maria da Penha, aprovada em 2006, é o grande marco que define e tipifica as formas de violência contra a mulher. Essa lei prevê cinco tipos de violência doméstica e familiar: física, psicológica, moral, sexual e patrimonial.
                         </p>
                     </div>
                 </div>
-                <div class='container'>
+                <div className='container'>
                     <div>
                         <img className='img2' src="https://miro.medium.com/max/1080/1*fhzbyB10gDdqGK9e9q9Zjg.png" />
                     </div>
 
-                    <div class='textos2'>
+                    <div className='textos2'>
                         <h2> Lei de Violência Doméstica e Familiar </h2>                 
                         <p>
                             Maria da Penha, a mulher que inspirou a Lei de Violência Doméstica no Brasil. A primeira forma legal de proteção de vítimas de violência doméstica foi publicada em 7 de agosto de 2006 pelo então presidente Lula (PT), que assinou a lei n.º 11.340/2006, chamada de Lei de Violência Doméstica e Familiar e conhecida como Lei Maria da Penha. Esta famosa lei foi o resultado de um processo internacional, liderado por Maria da Penha, uma vítima de violência doméstica que foi baleada aos 37 anos por seu marido com um rifle, que também tentou eletrocutar ela no banheiro. Como consequência, ela se tornou paralítica e começou uma longa batalha nos tribunais para conseguir a condenação de seu marido. Na década de 1990, Maria da Penha recorreu à Comissão Interamericana de Direitos Humanos e, em 2001, ela foi capaz de obter justiça e manter o governo brasileiro responsável pela tolerância judiciária da violência doméstica. A comissão também recomendou que o governo brasileiro adotasse medidas mais eficazes contra as vítimas mulheres.
@@ -42,11 +39,11 @@ function Inicio() {
 
                 </div>
 
-                <div class='textos3'>
+                <div className='textos3'>
                     <p>
                     Se você é vitima ou conhece alguém que está em um ciclo de violência doméstica
-                    <p>DENUNCIE!</p>
-                    </p>            
+                    </p>
+                    <p>DENUNCIE!</p>       
                     <img className='img-inicio' src='https://www2.itanhaem.sp.gov.br/wp-content/uploads/2019/03/placa-lei4236.jpg' />
                 </div>           
                 <div className='div-envio'>

@@ -57,7 +57,7 @@ function Depoimentos() {
               type="submit" 
               onClick={handleCreateNewItem}
               >
-               <FiPlus size={16} color="red" />
+
             </button>
           </div>
         </div>

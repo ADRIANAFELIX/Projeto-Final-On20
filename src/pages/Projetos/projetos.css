@@ -2,7 +2,8 @@
     width: 100%;
     display: flex;
     flex-wrap: row wrap;
-    justify-content: space-evenly;}
+    justify-content: space-evenly;
+}
 
 .card{
     width: 22rem;
@@ -55,9 +56,8 @@
     color: rgb(7, 7, 7);
 }
 
-.card-texto{
+.card-texto {
     font-size: 1rem;
-    width: 20rem;
     margin: 0 auto;
     text-align: justify;
 }
@@ -68,7 +68,22 @@
     background-image: linear-gradient(to bottom, #ffffff, #d7b1ef);
 }
 
+.card-rodape3 {
+    margin-top: 7.7rem;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #ffffff, #d7b1ef);
+}
+
 .card-rodape a{
+    color: rgb(2, 2, 2);
+    display: block;
+    padding: 0.8rem;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 1.0rem;
+}
+
+.card-rodape3 a{
     color: rgb(2, 2, 2);
     display: block;
     padding: 0.8rem;
@@ -95,9 +110,8 @@
     width: 100%;
     height: 8rem;
     margin:  0.5rem;
-    text-align: center
+    text-align: center;
     overflow: hidden;
-
 }
 
 .envio {
@@ -117,4 +131,51 @@
 .envio:hover{
     transform: scale3d(1.1, 1.1, 1.1);
     
+}
+
+.projeto3 {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .container-cards{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .card {
+        margin: 0px;
+    }
+
+    .card-1 {
+        margin: 0px;
+    }
+
+    .div-envio h1 {
+        font-size: 15px
+    }
+
+    .envio {
+        height: 30px;
+    }
+
+    .projeto3 h2 {
+        margin: 0px;
+    }
+
+    .projeto3 {
+        text-align: center;
+    }
+
+    .projeto3 .card-texto {
+        font-size: 1.2rem;
+    }
+
+    .card-texto {
+        padding: 5px;
+    }
+
+    .card-rodape3 {
+        padding: 5em;
+    }
 }
