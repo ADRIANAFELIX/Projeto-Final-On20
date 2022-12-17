@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import Footer from '../../Componentes/Footer/Footer'
 
-
 import './depoimentos.css'
 
 function Depoimentos() {

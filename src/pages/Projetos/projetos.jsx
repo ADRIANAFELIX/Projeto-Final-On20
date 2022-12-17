@@ -73,7 +73,7 @@ function Projetos() {
                 <a className='envio' href="https://reprograma.com.br/" target="_blanck"><b>Saiba mais</b></a>
             </div>
             <footer>
-                <Footer />                
+                <Footer/>                
             </footer>
         </>
     )
